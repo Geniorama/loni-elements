@@ -1,0 +1,101 @@
+.loni-simulator{
+    background-color: #002033;
+    padding: 5em 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.loni-simulator__title{
+    color: #E76E6E;
+    font-size: 43px;
+    text-align: center;
+}
+.loni-simulator__title span{
+    font-size: 30px;
+    color: #D2FA49;
+}
+.loni-simulator__form{
+    background-color: #002833;
+    margin-top: 2em;
+    padding: 2.5em 2em;
+    border-radius: 20px;
+    box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.45);
+}
+.loni-simulator__form-header{
+    background-color: #002933;
+    box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.45);
+    padding: 1.5em 2em;
+    border-radius: 20px;
+}
+.loni-simulator__form-result{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    align-items: center;
+}
+.loni-simulator__form-text{
+    font-size: 19px;
+}
+.loni-simulator__form-total{
+    font-size: 35px;
+}
+.loni-simulator__form-categories{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.loni-simulator__form-categories span{
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.loni-simulator__form-category-payment{
+    background-color: #D4E533;
+    color: white;
+}
+.loni-simulator__form-category-interest{
+    background-color: #E76E6E;
+    color: #FFBBBB;
+}
+.loni-simulator__form-category-principal{
+    background-color: #25577C;
+    color: #8FCAE2;
+}
+.loni-simulator__form-category-tax{
+    background-color: #68AED8;
+    color: #B0E4F4;
+}
+.loni-simulator__form-body{
+    padding-top: 30px;
+}
+.loni-simulator__form-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.loni-simulator__form-group label{
+    color: white;
+    width: 30%;
+}
+.loni-simulator__form-group input{
+    width: 70%;
+    background-color: #002F3A;
+    border: none;
+    height: 40px;
+    border-radius: 7px;
+    color: white;
+}
+.loni-simulator__form-group .input-1{
+    width: 40%;
+}
+.loni-simulator__form-group .input-2{
+    width: 26%;
+    margin-left: 4%;
+}
+.loni-simulator__form-group .input-3{
+    width: 36%;
+}
+.loni-simulator__form-group .input-4{
+    width: 30%;
+    margin-left: 4%;
+}

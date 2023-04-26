@@ -84,6 +84,7 @@
     height: 40px;
     border-radius: 7px;
     color: white;
+    padding-left: 1em;
 }
 .loni-simulator__form-group .input-1{
     width: 40%;
@@ -98,4 +99,49 @@
 .loni-simulator__form-group .input-4{
     width: 30%;
     margin-left: 4%;
+}
+
+/*Responsive*/
+@media (max-width: 991.98px) {
+    .loni-simulator__title{
+        font-size: 30px;
+    }
+    .loni-simulator__title span{
+        font-size: 20px;
+    }
+    .loni-simulator__form-result{
+        display: block;
+    }
+    .loni-simulator__form-text{
+        font-size: 16px;
+    }
+    .loni-simulator__form-categories{
+        display: block;
+    }
+    .loni-simulator__form-group{
+        display: block;
+    }
+    .loni-simulator__form-group label{
+        width: 100%;
+        margin-bottom: .5em;
+    }
+    .loni-simulator__form-group input{
+        width: 100%;
+    }
+    .loni-simulator__form-group .input-1{
+        width: 100%;
+        margin-bottom: .4em;
+    }
+    .loni-simulator__form-group .input-2{
+        width: 100%;
+        margin: 0;
+    }
+    .loni-simulator__form-group .input-3{
+        width: 100%;
+        margin-bottom: .4em;
+    }
+    .loni-simulator__form-group .input-4{
+        width: 100%;
+        margin: 0;
+    }
 }

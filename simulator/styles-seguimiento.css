@@ -1,0 +1,72 @@
+:root {
+  --bg-color-primary: #002033;
+  --bg-color-secondary: #002538;
+  --title-color: #d1f949;
+  --text-color: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.step-wizard {
+  background-color: var(--bg-color-primary);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.step-wizard-container {
+  background: var(--bg-color-secondary);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  color: #333;
+  list-style-type: none;
+  border-radius: 10px;
+  padding: 20px 10px 90px 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+  z-index: 10;
+}
+.step-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: 10px 0px 10px 0px;
+}
+.step-title {
+  color: var(--title-color);
+  font-size: 2em;
+  font-weight: 400;
+}
+.people-img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  text-align: center;
+}
+.circular--square {
+  width: 13em;
+  height: 13em;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.container-people-information:last-child {
+  margin-right: 20px;
+}
+.container-people-information {
+  display: inline-grid;
+}
+.container-people-information {
+  color: var(--text-color);
+}
+.container-people-information:hover {
+  cursor: pointer;
+  color: #e66e6e;
+}

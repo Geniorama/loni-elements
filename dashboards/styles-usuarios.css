@@ -191,7 +191,7 @@ body {
   .step-wizard-container{
     margin: 15px;
   }
-  .loni-contact{
+  .loni-contact .row{
     display: inline-flex;
     flex-flow: column-reverse;
   }
